@@ -1,0 +1,31 @@
+/* Reset default padding and margin, and center content */
+body {
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox layout */
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    font-family: 'Courier New', Courier, monospace; /* Sets font style */
+}
+
+/* Styling for main calculator box */
+.container {
+    background: darkcyan; /* Container background color */
+    color: aliceblue; /* Text color */
+    padding: 20px; /* Space inside container */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+.input {
+    width: 100%; /* Full width input field */
+    font-size: 20px; /* Larger text size */
+    height: 30px; /* Fixed input height */
+}
+
+/* Styling for the monthly payment result */
+.payment {
+    font-weight: 600; /* Bold text */
+    font-size: 20px; /* Larger font size */
+}
